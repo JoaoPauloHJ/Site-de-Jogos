@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoaoPH Games</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+    <main class="container main">
+        <img src="img/logo.svg" alt="Logo AluGames">
+        <section class="divisor">
+            <div class="divisor__line"></div>
+            <img src="img/fade_bar.svg" alt="Visual bar" class="divisor__bar">
+            <div class="divisor__line"></div>
+        </section>
+        <h1 class="page-title">Aluguel de <span class="page-title__emphasis">Jogos 2025</span></h1>
+        <section class="dashboard">
+            <ul class="dashboard__items">
+                <li class="dashboard__items__item" id="game-1">
+                    <div class="dashboard__item__img"> 
+                        <img src="img/god_of_war_rag.png" alt="Capa jogo God Of War">
+                    </div>
+                    <p class="dashboard__item__name">God Of War Ragnarok</p>
+                    <p class="dashboard__valor">R$ 250,00 </p>
+                    <a onclick="alterarStatus(1)" class="dashboard__item__button">Comprar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-2">
+                    <div class="dashboard__item__img">
+                        <img src="img/farming_simulator_25.png" alt="Capa jogo Farming Simulator 2025">
+                    </div>
+                    <p class="dashboard__item__name">Farming Simulator 25</p>
+                    <p class="dashboard__valor">R$ 320,00 </p>
+                    <a onclick="alterarStatus(2)" class="dashboard__item__button">Comprar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-3">
+                    <div class="dashboard__item__img ">
+                        <img src="img/gta_vi.png" alt="Capa jogo GTA VI">
+                    </div>
+                    <p class="dashboard__item__name">GTA VI</p>
+                    <p class="dashboard__valor">R$ 699,00 </p>
+                    <a onclick="alterarStatus(3)" class="dashboard__item__button">Comprar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-4">
+                    <div class="dashboard__item__img">
+                        <img src="img/fifa25.png" alt="Capa jogo God Of War">
+                    </div>
+                    <p class="dashboard__item__name">FIFA 2025</p>
+                    <p class="dashboard__valor">R$ 299,00 </p>
+                    <a onclick="alterarStatus(4)" class="dashboard__item__button">Comprar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-5">
+                    <div class="dashboard__item__img">
+                        <img src="img/blackops6.png.jpg" alt="Capa jogo God Of War">
+                    </div>
+                    <p class="dashboard__item__name">Black Ops 6</p>
+                    <p class="dashboard__valor">R$ 360,00 </p>
+                    <a onclick="alterarStatus(5)" class="dashboard__item__button">Comprar</a>
+                </li>
+                <li class="dashboard__items__item" id="game-6">
+                    <div class="dashboard__item__img">
+                        <img src="img/sonsoftheforest.png" alt="Capa jogo God Of War">
+                    </div>
+                    <p class="dashboard__item__name">Sons Of The Forest</p>
+                    <p class="dashboard__valor">R$ 42,00 </p>
+                    <a onclick="alterarStatus(6)" id="myButton" class="dashboard__item__button">Comprar</a>
+                </li>
+            </ul>
+        </section>
+        <img src="img/hachuras.svg" alt="Visual hachuras" class="hachuras">
+    </main>
+
+    <script src="js/app.js">
+    </script>
+</body>
+
+</html>
