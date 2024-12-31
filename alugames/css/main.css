@@ -101,6 +101,12 @@
     /*background-color: rgba(249, 3, 3, 0.4);*/
 }
 .dashboard__item__img {
+
+    border-radius: 2rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00F4BF;
+
     padding: 1rem 1rem 1rem 1rem;
 }
 
